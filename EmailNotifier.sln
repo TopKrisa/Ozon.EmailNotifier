@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2EE1A4B2-A0AD-4BFC-BAB9-7F455641D1E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{859112D7-3407-41A4-AB27-54BB0B4843F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EC429D8F-22E3-41FF-A8E9-7EDD285F042D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailNotifier.Domain", "EmailNotifier.Domain\EmailNotifier.Domain.csproj", "{B1A32802-AE79-42B3-9648-DEAF1FE303E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailNotifier.Application", "EmailNotifier.Application\EmailNotifier.Application.csproj", "{A07E8322-A4FA-4D52-B2F2-2ADB72BF6651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailNotifier.Persistence", "EmailNotifier.Persistence\EmailNotifier.Persistence.csproj", "{79D9EC59-B75B-4FF1-8361-36655BF36644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailNotifier.WebAPI", "EmailNotifier.WebAPI\EmailNotifier.WebAPI.csproj", "{173AE0F9-5D41-4FCC-8959-62DE127E39E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailNotifier.EmailService", "EmailNotifier.EmailService\EmailNotifier.EmailService.csproj", "{14A55C52-AE80-41A6-ABD4-A0B81BFF96A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1A32802-AE79-42B3-9648-DEAF1FE303E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A32802-AE79-42B3-9648-DEAF1FE303E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A32802-AE79-42B3-9648-DEAF1FE303E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A32802-AE79-42B3-9648-DEAF1FE303E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07E8322-A4FA-4D52-B2F2-2ADB72BF6651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07E8322-A4FA-4D52-B2F2-2ADB72BF6651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07E8322-A4FA-4D52-B2F2-2ADB72BF6651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07E8322-A4FA-4D52-B2F2-2ADB72BF6651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D9EC59-B75B-4FF1-8361-36655BF36644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D9EC59-B75B-4FF1-8361-36655BF36644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D9EC59-B75B-4FF1-8361-36655BF36644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D9EC59-B75B-4FF1-8361-36655BF36644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173AE0F9-5D41-4FCC-8959-62DE127E39E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173AE0F9-5D41-4FCC-8959-62DE127E39E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173AE0F9-5D41-4FCC-8959-62DE127E39E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173AE0F9-5D41-4FCC-8959-62DE127E39E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A55C52-AE80-41A6-ABD4-A0B81BFF96A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A55C52-AE80-41A6-ABD4-A0B81BFF96A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A55C52-AE80-41A6-ABD4-A0B81BFF96A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A55C52-AE80-41A6-ABD4-A0B81BFF96A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1A32802-AE79-42B3-9648-DEAF1FE303E1} = {2EE1A4B2-A0AD-4BFC-BAB9-7F455641D1E7}
+		{A07E8322-A4FA-4D52-B2F2-2ADB72BF6651} = {2EE1A4B2-A0AD-4BFC-BAB9-7F455641D1E7}
+		{79D9EC59-B75B-4FF1-8361-36655BF36644} = {859112D7-3407-41A4-AB27-54BB0B4843F3}
+		{173AE0F9-5D41-4FCC-8959-62DE127E39E3} = {EC429D8F-22E3-41FF-A8E9-7EDD285F042D}
+		{14A55C52-AE80-41A6-ABD4-A0B81BFF96A0} = {2EE1A4B2-A0AD-4BFC-BAB9-7F455641D1E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE93FE09-B26E-47ED-A09E-2CE4C1486DD7}
+	EndGlobalSection
+EndGlobal
